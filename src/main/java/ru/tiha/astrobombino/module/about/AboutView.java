@@ -1,4 +1,4 @@
-package ru.tiha.astrobombino.views.about;
+package ru.tiha.astrobombino.module.about;
 
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
@@ -6,10 +6,10 @@ import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-import ru.tiha.astrobombino.views.MainLayout;
+import ru.tiha.astrobombino.module.main.MainView;
 
 @PageTitle("About")
-@Route(value = "about", layout = MainLayout.class)
+@Route(value = "about", layout = MainView.class)
 public class AboutView extends VerticalLayout {
 
     public AboutView() {
